@@ -30,7 +30,7 @@ implementation 'co.zuper.sdk.android:zuper-client-core:1.0.8'
 ```
 
 ### Getting Started [⤴](#table-of-contents)
-`ZuperClient` is the entry point to the SDK. An instance of ZuperClient can be built using ZuperClient.Builder() and this instance can be reused across the lifecycle of the Android App.
+`ZuperClient` is the entry point to the SDK. An instance of ZuperClient can be built using `ZuperClient.Builder()` and this instance can be reused across the lifecycle of the Android App.
 ```kotlin
 class ZuperClientSampleApp : Application() {
 
