@@ -31,6 +31,33 @@ implementation 'co.zuper.sdk.android:zuper-client-core:1.0.8'
 
 ### Getting Started [⤴](#table-of-contents)
 `ZuperClient` is the entry point to the SDK. An instance of ZuperClient can be built using ZuperClient.Builder() and this instance can be reused across the lifecycle of the Android App.
+```kotlin
+class ZuperClientSampleApp : Application() {
+
+    lateinit var zuperClient: ZuperClient
+        private set
+
+    override fun onCreate() {
+        super.onCreate()
+        buildZuperClient()
+    }
+
+    private fun buildZuperClient() {
+        var loggingLevel = LoggingLevel.NONE
+        var environment = ZuperEnvironment.LIVE
+        if (BuildConfig.DEBUG) {
+            loggingLevel = LoggingLevel.BODY
+            environment = ZuperEnvironment.TRAINING
+        }
+        zuperClient = ZuperClientBuilder()
+            .context(this)
+            .environment(environment)
+            .loggingLevel(loggingLevel)
+            .build()
+    }
+}
+```
+
 For more information such as session management with Zuper Client, take a look at our [Getting Started](docs/getting-started.md) guide.
 
 ### API [⤴](#table-of-contents)
