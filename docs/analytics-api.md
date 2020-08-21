@@ -1,10 +1,10 @@
-## Table of contents
+## Analytics API's
 
 - [Job Stats](#job-stats-)
 
 #### Job Stats
 
-The following method is used to fetch Jobs from Zuper.
+Job stats API provides you the count of jobs categorised by Job Status Type, Job Status Name, Job Category, Customer Category and Customer Feedback
 
 ```kotlin
 zuperClient.getJobStats(fromDate, toDate)
