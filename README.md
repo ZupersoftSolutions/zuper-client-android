@@ -62,8 +62,8 @@ For more information such as session management with Zuper Client, take a look a
 
 ### API [⤴](#table-of-contents)
 
-* [Analytics]()
-  * [Job Stats](analytics-api.md)
+* [Analytics](docs/analytics-api.md)
+  * [Job Stats](docs/analytics-api.md)
 
 * [Jobs](docs/jobs-api.md)
   * [Jobs]()
