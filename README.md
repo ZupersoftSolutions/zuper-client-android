@@ -61,3 +61,25 @@ class ZuperClientSampleApp : Application() {
 For more information such as session management with Zuper Client, take a look at our [Getting Started](docs/getting-started.md) guide.
 
 ### API [⤴](#table-of-contents)
+
+* [Analytics]()
+  * [Job Stats](analytics-api.md)
+
+* [Jobs](docs/jobs-api.md)
+  * [Jobs]()
+  * [Job Details]()
+  * [Job Notes]()
+  * [Job Activities]()
+  * [Job Statuses]()
+  * [Update Job Status]()
+  * [Reschedule Job]()
+
+* [Customers](docs/customers-api.md)
+  * [Customers]()
+  * [Customer Details]()
+  * [Customer Notes]()
+* [Teams & Users](docs/teams-users-api.md)
+  * [Teams]()
+* [Misc](docs/misc-api.md)
+  * [Add User Location]()
+  * [Add Custom Activity]()
