@@ -2,7 +2,7 @@
 Zuper Client SDK lets you quickly intergrate Zuper API's in your app. 
 
 ## Table of contents
-- [Prerequisites] (#prerequisites-)
+- [Prerequisites](#prerequisites-)
 - [Installation](#installation-)
 - [Getting started](#getting-started-)
 - [API](#api-)
