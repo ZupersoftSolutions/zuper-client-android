@@ -64,7 +64,6 @@ For more information such as session management with Zuper Client, take a look a
 
 * [Analytics](docs/analytics-api.md)
   * [Job Stats](docs/analytics-api.md#job-stats)
-
 * [Jobs](docs/jobs-api.md)
   * [Jobs](docs/jobs-api.md#jobs)
   * [Job Details](docs/jobs-api.md#job-details)
@@ -73,11 +72,10 @@ For more information such as session management with Zuper Client, take a look a
   * [Job Statuses](docs/jobs-api.md#job-statuses)
   * [Update Job Status](docs/jobs-api.md#update-status)
   * [Reschedule Job](docs/jobs-api.md#reschedule-job)
-
 * [Customers](docs/customers-api.md)
   * [Customers](docs/customers-api.md#customers)
-  * [Customer Detail](docs/customers-api.md#customer=detail)
+  * [Customer Detail](docs/customers-api.md#customer-detail)
   * [Customer Notes](docs/customers-api.md#customer-notes)
 * [Misc](docs/misc-api.md)
-  * [Add User Location](docs/misc-api.md#add-user-location)
   * [Add Custom Activity](docs/misc-api.md#add-custom-activity)
+  * [Add User Location](docs/misc-api.md#add-user-location)
