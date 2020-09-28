@@ -2,7 +2,7 @@
 
 - [Job Stats](#job-stats-)
 
-#### Job Stats
+### Job Stats
 
 Job stats API provides you the count of jobs categorised by Job Status Type, Job Status Name, Job Category, Customer Category and Customer Feedback
 
