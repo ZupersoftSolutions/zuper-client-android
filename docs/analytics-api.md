@@ -1,6 +1,6 @@
 ## Analytics API's
 
-- [Job Stats](#job-stats-)
+- [Job Stats](#job-stats)
 
 ### Job Stats
 
